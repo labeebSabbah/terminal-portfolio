@@ -3,5 +3,3 @@ const commands = {
     clear: "Clear the screen",
     help: "Show this help",
 };
-
-export {commands};

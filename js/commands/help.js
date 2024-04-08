@@ -1,6 +1,4 @@
-import { commands } from "../commands-list.js";
-
-const output = `
+const help = `
         <br>
         <br>
         <br>
@@ -13,5 +11,3 @@ const output = `
         <br>
 
 `;
-
-export { output };

@@ -1,12 +1,6 @@
-import {commands} from '/js/commands-list.js';
-import {output as input} from '/js/input.js';
-import {output as banner} from '/js/commands/banner.js';
-import {output as help} from '/js/commands/help.js';
-
 printCommand("banner");
 printInput();
 document.onkeydown = function(e) {
-    console.log(e.key);
     if (!((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 65 && e.keyCode <= 90) || e.key === 'Backspace' || e.key === ' ' || e.key === 'Enter')) {
         e.preventDefault();
         return;

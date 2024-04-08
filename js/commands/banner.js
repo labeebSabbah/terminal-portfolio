@@ -1,4 +1,4 @@
-const output = `
+const banner = `
 <pre>
 
     ##### /                    /                            /       
@@ -42,5 +42,3 @@ const output = `
                                                                  /     
 </pre>
 `;
-
-export {output};

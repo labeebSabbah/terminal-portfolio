@@ -1,0 +1,56 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    background-color: #000000;
+    color: #00FF00;
+    padding: 20px;
+    border: solid 2px #00FF00;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+}
+
+.input label {
+    margin-right: 10px;
+}
+
+.input span {
+    margin-left: 10px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    caret-color: transparent;
+    border: none;
+    background: none;
+    outline: none;
+    color: #00FF00;
+    width: 0ch;
+    padding: 0px;
+}
+
+.custom-cursor {
+    height: 1em;
+    width: 10px;
+    background-color: #00FF00;
+    animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: transparent;
+    }
+}
